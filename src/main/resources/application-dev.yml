@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/clean
+    username: postgres
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+#  flyway:
+#    enabled: true # Habilita o Flyway na aplicação
+#    locations: classpath:db/migration # Caminho dos scripts de migração
